@@ -1,12 +1,12 @@
-- name: checking datatyoes
+- name: checking datatypes
   host: localhost
   vars: 
     Name: Punnam # Key Value
     skills: # SKILL SET IS LIST TYPE
-    - Devops
-    - Shell
-    - Ansible
-    - Linux
+     - Devops
+     - Shell
+     - Ansible
+     - Linux
     Experience:  #EXP is map  type, it contains key value pairs
       DevOps: 7
       AWS: 6

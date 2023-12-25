@@ -1,5 +1,5 @@
 - name: checking datatypes
-  host: localhost
+  hosts: localhost
   vars: 
     Name: Punnam # Key Value
     skills: # SKILL SET IS LIST TYPE

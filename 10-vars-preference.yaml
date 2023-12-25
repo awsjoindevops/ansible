@@ -3,9 +3,6 @@
   hosts: localhost
   vars_files:
   - variables.yaml
-  vars:
-    Person: "Punnam-Play"
-    Wishes: "Good Morning- play" 
   tasks:
   - name: check variables   
     ansible.builtin.debug:

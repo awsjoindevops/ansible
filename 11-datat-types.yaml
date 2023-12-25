@@ -11,3 +11,17 @@
       DevOps: 7
       AWS: 6
       Docker: 6
+    Trainer: true
+  tasks:
+  - name: print key value pair
+    ansible.builtin.debug:
+      msg: "name: {{NAME}}"
+
+  - name: print LIST
+    ansible.builtin.debug:
+      msg: "skills: {{skills}}}}"
+
+  - name: print MAP
+    ansible.builtin.debug:
+      msg: "Experience: {{Experience}}"
+

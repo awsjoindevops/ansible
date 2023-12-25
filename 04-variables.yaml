@@ -6,6 +6,5 @@
     Duration: "110HRS"
   tasks:
   - name: check variables
-    ansible.bultin.debug:
-      msg: "Hi I am learning  {{Course}, Trainer is {{Trainer}}, Duration is {{Duration}}"
-      
+      ansible.bultin.debug:
+        msg: "Hi I am learning  {{Course}, Trainer is {{Trainer}}, Duration is {{Duration}}"

@@ -18,7 +18,4 @@
 
   - name: create user
     ansible.builtin.user:
-      name: user.rc !=0
-  
-
-    
+      name: user.rc != 0

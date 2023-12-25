@@ -2,6 +2,7 @@
   hosts: localhost
   become: yes
   tasks:
+  
   - name: check roboshop user is exist or not
     ansible.builtin.command: id roboshop
     register: user  # user is varibale name
@@ -17,8 +18,7 @@
 
   - name: create user
     ansible.builtin.user:
-      name: roboshop
-    when: output.rc !=0  #condition
-
+      name: user.rc != 0
+  
 
     

@@ -25,3 +25,6 @@
     ansible.builtin.debug:
       msg: "Experience: {{Experience}}"
 
+  - name: print Trainer
+    ansible.builtin.debug:
+      msg: "Trainer: {{Trainer}}"

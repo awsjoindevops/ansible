@@ -1,0 +1,10 @@
+- name: loops
+  hosts: localhost
+  tasks:
+  - name: print person
+    ansible.builtin.package:
+      name: "{{item}}" #item is default keyword
+    loop:
+    - git
+    - mysql
+    - postfix

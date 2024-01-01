@@ -4,4 +4,3 @@
   - name: connect to the server
     ansible.builtin.ping: 
 
-    
